@@ -16,8 +16,8 @@ theme: null
 #    baseurl은 "" 로 두고 url만 실제 주소로 바꾸세요.
 # 2) "사용자명.github.io/저장소이름" 형태의 Project 페이지를 쓴다면
 #    baseurl을 "/저장소이름" 으로 바꾸세요. (예: "/friguson-web")
-url: "https://dekim79.github.io"
-baseurl: "/friguson"
+url: "https://friguson.com"
+baseurl: ""
 
 author: "김동억 (Dong Eok Kim)"
 email: "engineer0@friguson.com"
