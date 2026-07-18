@@ -1,0 +1,26 @@
+{% assign lang = page.lang | default: site.lang %}
+{% assign nav_items = site.data.nav[lang] %}
+{% assign home_url = "/" %}
+{% if lang == "en" %}{% assign home_url = "/en/" %}{% endif %}
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{{ home_url | relative_url }}">
+      <img src="{{ '/assets/images/friguson-wordmark-sm.png' | relative_url }}" alt="FRIGUSON">
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      {% for item in nav_items %}
+        {% assign item_url = item.url | relative_url %}
+        <a href="{{ item_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a class="lang-switch" href="{{ page.alt_url | default: home_url | relative_url }}">
+        {% if lang == "ko" %}EN{% else %}KO{% endif %}
+      </a>
+    </nav>
+  </div>
+</header>

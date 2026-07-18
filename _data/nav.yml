@@ -1,0 +1,27 @@
+ko:
+  - title: 홈
+    url: /
+  - title: 회사소개
+    url: /about/
+  - title: 기술 & 제품
+    url: /technology/
+  - title: 실험장치 설계·제작
+    url: /lab-solutions/
+  - title: Experimental World
+    url: /experimental-world/
+  - title: 연락처
+    url: /contact/
+
+en:
+  - title: Home
+    url: /en/
+  - title: About
+    url: /en/about/
+  - title: Technology
+    url: /en/technology/
+  - title: Lab Solutions
+    url: /en/lab-solutions/
+  - title: Experimental World
+    url: /en/experimental-world/
+  - title: Contact
+    url: /en/contact/

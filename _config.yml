@@ -1,0 +1,69 @@
+title: "프리거슨 | FRIGUSON"
+tagline: "General Purpose Technology for Cooling"
+description: "㈜프리거슨은 초고집적 전자장비를 위한 고효율·저탄소 Direct-to-Chip(D2C) 냉각 솔루션을 개발하고, 대학·기업 연구소를 위한 실험장치를 설계·제작합니다."
+lang: ko
+
+# github-pages gem은 theme를 지정하지 않으면 jekyll-theme-primer를
+# 기본값으로 자동 주입합니다. 이 사이트는 자체 커스텀 디자인을 사용하므로
+# 명시적으로 비활성화합니다. (그렇지 않으면 테마의 assets/css/style.css가
+# 우리가 만든 assets/css/style.css를 덮어씁니다)
+theme: null
+
+# ---------------------------------------------------------------------------
+# GitHub Pages 배포 설정
+# ---------------------------------------------------------------------------
+# 1) 커스텀 도메인이나 "사용자명.github.io" 형태의 User/Org 페이지를 쓴다면
+#    baseurl은 "" 로 두고 url만 실제 주소로 바꾸세요.
+# 2) "사용자명.github.io/저장소이름" 형태의 Project 페이지를 쓴다면
+#    baseurl을 "/저장소이름" 으로 바꾸세요. (예: "/friguson-web")
+url: "https://dekim79.github.io"
+baseurl: "/friguson"
+
+author: "김동억 (Dong Eok Kim)"
+email: "engineer0@friguson.com"
+
+# ---------------------------------------------------------------------------
+# 콘텐츠 컬렉션 (Experimental World 게시글)
+# 새 글은 _experiments_ko / _experiments_en 폴더에 .md 파일을 추가하면 됩니다.
+# ---------------------------------------------------------------------------
+collections:
+  experiments_ko:
+    output: true
+    permalink: /experimental-world/:path/
+  experiments_en:
+    output: true
+    permalink: /en/experimental-world/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "experiments_ko"
+    values:
+      layout: experiment
+      lang: ko
+  - scope:
+      path: ""
+      type: "experiments_en"
+    values:
+      layout: experiment
+      lang: en
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTENT_GUIDE.md
+  - node_modules
+  - vendor
+  - "*.pdf"
+  - "LOGO1.png"
+  - "LOGO6.png"
+  - "Concept1.webp"

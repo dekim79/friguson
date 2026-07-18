@@ -1,0 +1,22 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+.bundle/
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.claude/
+
+# Internal source materials (not meant for the public repo) —
+# already processed into assets/images/, originals kept locally only.
+*.pdf
+LOGO1.png
+LOGO6.png

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="page-banner">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="container" style="padding: 64px 24px;">
+  {{ content }}
+</div>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="hero">
+  <div class="container">
+    <div class="hero-tagline">{{ page.hero_tagline }}</div>
+    <h1>{{ page.hero_title }}</h1>
+    <p class="lead">{{ page.hero_lead }}</p>
+    <div class="btn-group">
+      {% if page.hero_primary_label %}
+      <a class="btn btn-primary" href="{{ page.hero_primary_url | relative_url }}">{{ page.hero_primary_label }}</a>
+      {% endif %}
+      {% if page.hero_secondary_label %}
+      <a class="btn btn-outline" href="{{ page.hero_secondary_url | relative_url }}">{{ page.hero_secondary_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{{ content }}
