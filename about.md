@@ -27,7 +27,7 @@ description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역�
       <img src="{{ '/assets/images/friguson-mark-512.png' | relative_url }}" alt="FRIGUSON">
     </div>
     <div>
-      <h3>김동억 (Dong Eok Kim) · 대표이사 / 연구책임자</h3>
+      <h3>대표이사 / 연구책임자</h3>
       <p>20여 년간 액체-기체 상변화 열전달을 연구해온 열유체공학 분야 전문가입니다. 에너지 변환 및 상변화 열전달 관련 국제학술지(SCI)에 약 40여 편의 논문을 등재하였으며, <strong>World Top 2% Scientist</strong>에 선정된 바 있습니다.</p>
       <ul class="badge-list">
         <li class="badge">열교환기 국내 특허 보유</li>

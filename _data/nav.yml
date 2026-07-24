@@ -3,8 +3,10 @@ ko:
     url: /
   - title: 회사소개
     url: /about/
-  - title: 기술 & 제품
+  - title: 기술
     url: /technology/
+  - title: 제품
+    url: /products/
   - title: 실험장치 설계·제작
     url: /lab-solutions/
   - title: Experimental World
@@ -19,6 +21,8 @@ en:
     url: /en/about/
   - title: Technology
     url: /en/technology/
+  - title: Products
+    url: /en/products/
   - title: Lab Solutions
     url: /en/lab-solutions/
   - title: Experimental World

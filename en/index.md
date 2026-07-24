@@ -26,7 +26,7 @@ hero_secondary_url: /en/lab-solutions/
         <div class="icon">❄</div>
         <h3>Electronics Cooling Solutions</h3>
         <p>Integrated Cold Plate, CDU, and heat exchanger systems built on Direct-to-Chip (D2C) technology to solve the thermal challenges of ultra-high-density electronics.</p>
-        <a class="card-link" href="{{ '/en/technology/' | relative_url }}">See Technology &amp; Products →</a>
+        <a class="card-link" href="{{ '/en/technology/' | relative_url }}">See Technology →</a>
       </div>
       <div class="card">
         <div class="icon">🔬</div>

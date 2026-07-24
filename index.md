@@ -26,7 +26,7 @@ hero_secondary_url: /lab-solutions/
         <div class="icon">❄</div>
         <h3>전자장비 냉각 솔루션</h3>
         <p>Direct-to-Chip(D2C) 방식의 Cold Plate·CDU·열교환기 통합 시스템으로 초고집적 전자장비의 발열 문제를 해결합니다.</p>
-        <a class="card-link" href="{{ '/technology/' | relative_url }}">기술 &amp; 제품 보기 →</a>
+        <a class="card-link" href="{{ '/technology/' | relative_url }}">기술 살펴보기 →</a>
       </div>
       <div class="card">
         <div class="icon">🔬</div>

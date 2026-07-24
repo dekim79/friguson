@@ -19,13 +19,6 @@ description: "㈜프리거슨 연락처 정보입니다."
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
       </div>
-      <div class="contact-item">
-        <div class="icon">🏢</div>
-        <div>
-          <strong>대표이사</strong>
-          {{ site.author }}
-        </div>
-      </div>
       <!-- 전화번호를 공개하려면, 아래 블록 앞뒤의 주석 기호를 지우고 번호를 입력하세요.
         <div class="contact-item">
           <div class="icon">☎</div>

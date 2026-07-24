@@ -27,7 +27,7 @@ description: "FRIGUSON's vision, CEO profile, and core technical capabilities."
       <img src="{{ '/assets/images/friguson-mark-512.png' | relative_url }}" alt="FRIGUSON">
     </div>
     <div>
-      <h3>Dong Eok Kim · CEO / Principal Investigator</h3>
+      <h3>CEO / Principal Investigator</h3>
       <p>A thermal-fluid engineering expert with more than 20 years of research experience in liquid-gas phase-change heat transfer. Author of roughly 40 SCI-indexed papers on energy conversion and phase-change heat transfer, and recognized as a <strong>World Top 2% Scientist</strong>.</p>
       <ul class="badge-list">
         <li class="badge">Domestic patent on heat exchangers</li>

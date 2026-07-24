@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: ko
-title: 기술 & 제품
+title: 기술
 subtitle: Direct-to-Chip(D2C) 기반 고효율·저탄소 열관리 시스템
 permalink: /technology/
 alt_url: /en/technology/
-description: "프리거슨의 Direct-to-Chip(D2C) 냉각 기술과 Cold Plate, CDU, 통합 열관리 시스템 제품 라인업을 소개합니다."
+description: "프리거슨의 Direct-to-Chip(D2C) 냉각 기술과 핵심 요소기술, 연구개발 로드맵을 소개합니다."
 ---
 
 <section style="padding-top:0;">
@@ -43,22 +43,10 @@ description: "프리거슨의 Direct-to-Chip(D2C) 냉각 기술과 Cold Plate, C
 </section>
 
 <section>
-  <div class="eyebrow">Product Line-up</div>
-  <h2>제품군</h2>
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>① 고성능 D2C Cold Plate 모듈</h3>
-      <p>상변화 열전달 메커니즘이 적용된, 고발열 칩셋에 직접 장착하는 방열 핵심 부품입니다.</p>
-    </div>
-    <div class="card">
-      <h3>② 소형·고효율 CDU</h3>
-      <p>펌프, 열교환기, 수질정화필터, 제어로직이 컴팩트하게 통합된 범용 냉각수 분배 장치입니다.</p>
-    </div>
-    <div class="card">
-      <h3>③ D2C 통합 열관리 시스템 패키지</h3>
-      <p>Cold Plate + CDU + 최종 열교환기(수냉/공냉)가 결합된 고전력 전자장비용 Total Solution입니다.</p>
-    </div>
-  </div>
+  <div class="eyebrow">Products</div>
+  <h2>제품 라인업이 궁금하신가요?</h2>
+  <p class="text-soft">Cold Plate, CDU, 통합 열관리 시스템 패키지 등 프리거슨의 제품 정보는 제품 페이지에서 확인하실 수 있습니다.</p>
+  <a class="btn btn-primary" href="{{ '/products/' | relative_url }}">제품 보기</a>
 </section>
 
 <section class="soft">

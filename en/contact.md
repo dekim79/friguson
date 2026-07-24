@@ -19,13 +19,6 @@ description: "Contact information for FRIGUSON Inc."
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
       </div>
-      <div class="contact-item">
-        <div class="icon">🏢</div>
-        <div>
-          <strong>CEO</strong>
-          {{ site.author }}
-        </div>
-      </div>
       <!-- To publish a phone number, remove the comment markers around the block below and fill in the number.
         <div class="contact-item">
           <div class="icon">☎</div>

@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: en
-title: Technology & Products
+title: Technology
 subtitle: High-efficiency, low-carbon thermal management built on Direct-to-Chip (D2C) cooling
 permalink: /en/technology/
 alt_url: /technology/
-description: "FRIGUSON's Direct-to-Chip (D2C) cooling technology and product line-up: Cold Plate, CDU, and integrated thermal management systems."
+description: "FRIGUSON's Direct-to-Chip (D2C) cooling technology, core technology elements, and R&D roadmap."
 ---
 
 <section style="padding-top:0;">
@@ -43,22 +43,10 @@ description: "FRIGUSON's Direct-to-Chip (D2C) cooling technology and product lin
 </section>
 
 <section>
-  <div class="eyebrow">Product Line-up</div>
-  <h2>Products</h2>
-  <div class="grid grid-3">
-    <div class="card">
-      <h3>① High-Performance D2C Cold Plate Module</h3>
-      <p>A core heat-dissipation component applying phase-change heat transfer, mounted directly on high-heat chipsets.</p>
-    </div>
-    <div class="card">
-      <h3>② Compact, High-Efficiency CDU</h3>
-      <p>A general-purpose coolant distribution unit compactly integrating pumps, heat exchangers, water-purification filters, and control logic.</p>
-    </div>
-    <div class="card">
-      <h3>③ D2C Integrated Thermal Management Package</h3>
-      <p>A total solution for high-power electronics combining Cold Plate + CDU + final heat exchanger (liquid- or air-cooled).</p>
-    </div>
-  </div>
+  <div class="eyebrow">Products</div>
+  <h2>Looking for our product line-up?</h2>
+  <p class="text-soft">Details on our Cold Plate, CDU, and integrated thermal management packages are available on the Products page.</p>
+  <a class="btn btn-primary" href="{{ '/en/products/' | relative_url }}">View Products</a>
 </section>
 
 <section class="soft">
