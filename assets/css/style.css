@@ -227,6 +227,14 @@ p { margin: 0 0 16px; color: var(--text); }
 
 section { padding: 48px 0; }
 section.soft { background: var(--bg-soft); }
+
+/* Inner (non-home) pages wrap sections in a single shared container, so a
+   "soft" section needs its own inset padding to read as a distinct box
+   instead of sharing the page's plain-section edges. */
+.container > section.soft {
+  padding: 40px 48px;
+  border-radius: var(--radius);
+}
 .section-head { max-width: 680px; margin-bottom: 44px; }
 
 .grid {
