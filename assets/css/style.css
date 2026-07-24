@@ -225,7 +225,7 @@ p { margin: 0 0 16px; color: var(--text); }
 /* Sections / cards                                                       */
 /* ---------------------------------------------------------------------- */
 
-section { padding: 72px 0; }
+section { padding: 48px 0; }
 section.soft { background: var(--bg-soft); }
 .section-head { max-width: 680px; margin-bottom: 44px; }
 

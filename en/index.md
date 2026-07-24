@@ -2,7 +2,7 @@
 layout: home
 lang: en
 title: "FRIGUSON | Electronics Cooling Solutions"
-description: "FRIGUSON Inc. develops high-efficiency, low-carbon Direct-to-Chip (D2C) cooling solutions for high-density electronics, and designs experimental apparatus for university and corporate research labs."
+description: "Friguson Co., Ltd. develops high-efficiency, low-carbon Direct-to-Chip (D2C) cooling solutions for high-density electronics, and designs experimental apparatus for university and corporate research labs."
 permalink: /en/
 alt_url: /
 hero_tagline: "General Purpose Technology for Cooling"

@@ -10,7 +10,7 @@ description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역�
 
 <section style="padding-top:0;">
   <div class="eyebrow">Company</div>
-  <h2>㈜프리거슨 (FRIGUSON Inc.)</h2>
+  <h2>㈜프리거슨 (Friguson Co., Ltd.)</h2>
   <p>프리거슨은 "General Purpose Technology for Cooling"이라는 목표 아래, 초고집적 전자장비의 발열 문제를 해결하는 고효율·저탄소 열관리 기술을 개발합니다. 이론·실험·설계·제조·검증을 아우르는 전주기적 연구개발을 통해 국내 수준을 넘어 세계적인 수준의 Direct-to-Chip(D2C) 시스템 기술을 만들어가고 있습니다.</p>
 
   <blockquote class="quote-block">
@@ -50,10 +50,7 @@ description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역�
   <div class="eyebrow">Research Capability</div>
   <h2>선행 연구개발 역량</h2>
   <p>대표이사가 학계에서 쌓아온 나노/마이크로 표면 가공, 정밀 계측, 전산해석 역량은 프리거슨의 D2C 냉각 시스템 개발의 핵심 기반이 되고 있습니다. 아래는 선행 연구개발 과정에서 확보한 제작·계측·해석 결과의 일부입니다.</p>
-  <figure class="figure">
-    <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="선행 연구개발 결과 요약: 나노/마이크로 표면 제조, 상변화 가시화 계측, 전산해석, 광학 계측 시스템">
-    <figcaption>선행 연구개발 결과 요약 — 나노/마이크로 표면 제조(Fabrications), 상변화 가시화 계측(Measurements), 전산해석(Modeling), 광학 계측(Optics)</figcaption>
-  </figure>
+  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="선행 연구개발 결과 요약: 나노/마이크로 표면 제조, 상변화 가시화 계측, 전산해석, 광학 계측 시스템">
 </section>
 
 <section class="soft">

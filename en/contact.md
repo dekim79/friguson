@@ -5,7 +5,7 @@ title: Contact
 subtitle: Whether it's adopting a cooling solution, commissioning lab equipment, or proposing a collaboration — feel free to reach out.
 permalink: /en/contact/
 alt_url: /contact/
-description: "Contact information for FRIGUSON Inc."
+description: "Contact information for Friguson Co., Ltd."
 ---
 
 <section style="padding-top:0;">
