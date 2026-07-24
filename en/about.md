@@ -46,13 +46,6 @@ description: "FRIGUSON's vision, CEO profile, and core technical capabilities."
   </div>
 </section>
 
-<section>
-  <div class="eyebrow">Research Capability</div>
-  <h2>Prior R&amp;D Capability</h2>
-  <p>The nano/micro surface fabrication, precision instrumentation, and computational analysis capabilities built up in academia form the core foundation of FRIGUSON's D2C cooling system development. Below is a sample of fabrication, measurement, and analysis results from our prior research.</p>
-  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="Summary of prior R&D results: nano/micro surface fabrication, phase-change visualization, computational modeling, optical instrumentation">
-</section>
-
 <section class="soft">
   <div class="eyebrow">Values</div>
   <h2>How We Work</h2>
@@ -70,4 +63,11 @@ description: "FRIGUSON's vision, CEO profile, and core technical capabilities."
       <p>Leveraging the CEO's industry-academia-research network, we build proof-of-concept credibility together with universities and research institutes.</p>
     </div>
   </div>
+</section>
+
+<section>
+  <div class="eyebrow">Research Capability</div>
+  <h2>Prior R&amp;D Capability</h2>
+  <p>The nano/micro surface fabrication, precision instrumentation, and computational analysis capabilities built up in academia form the core foundation of FRIGUSON's D2C cooling system development. Below is a sample of fabrication, measurement, and analysis results from our prior research.</p>
+  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="Summary of prior R&D results: nano/micro surface fabrication, phase-change visualization, computational modeling, optical instrumentation">
 </section>

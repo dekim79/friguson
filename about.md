@@ -46,13 +46,6 @@ description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역�
   </div>
 </section>
 
-<section>
-  <div class="eyebrow">Research Capability</div>
-  <h2>선행 연구개발 역량</h2>
-  <p>대표이사가 학계에서 쌓아온 나노/마이크로 표면 가공, 정밀 계측, 전산해석 역량은 프리거슨의 D2C 냉각 시스템 개발의 핵심 기반이 되고 있습니다. 아래는 선행 연구개발 과정에서 확보한 제작·계측·해석 결과의 일부입니다.</p>
-  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="선행 연구개발 결과 요약: 나노/마이크로 표면 제조, 상변화 가시화 계측, 전산해석, 광학 계측 시스템">
-</section>
-
 <section class="soft">
   <div class="eyebrow">Values</div>
   <h2>일하는 방식</h2>
@@ -70,4 +63,11 @@ description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역�
       <p>대표이사의 산학연 기술적 네트워크를 활용하여 대학·연구소와 함께 실증(PoC) 기반의 신뢰성을 쌓아갑니다.</p>
     </div>
   </div>
+</section>
+
+<section>
+  <div class="eyebrow">Research Capability</div>
+  <h2>선행 연구개발 역량</h2>
+  <p>대표이사가 학계에서 쌓아온 나노/마이크로 표면 가공, 정밀 계측, 전산해석 역량은 프리거슨의 D2C 냉각 시스템 개발의 핵심 기반이 되고 있습니다. 아래는 선행 연구개발 과정에서 확보한 제작·계측·해석 결과의 일부입니다.</p>
+  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="선행 연구개발 결과 요약: 나노/마이크로 표면 제조, 상변화 가시화 계측, 전산해석, 광학 계측 시스템">
 </section>
