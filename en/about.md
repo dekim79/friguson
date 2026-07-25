@@ -5,40 +5,13 @@ title: About
 subtitle: The people in the workshop — the makers are the company.
 permalink: /en/about/
 alt_url: /about/
-description: "The people building FRIGUSON, our core technical capabilities, and our R&D track record."
+description: "Friguson Co., Ltd. is being rebuilt around a new concept."
 ---
 
 <section style="padding-top:0;">
   <div class="eyebrow">Company</div>
   <h2>Friguson Co., Ltd.</h2>
-  <p>FRIGUSON is a thermal-fluid engineering workshop where theory, experiment, design, fabrication, and verification are carried out by the same hands. We solve the heat-dissipation problem of ultra-high-density electronics through Direct-to-Chip (D2C) cooling — see what we've built and what we're building on <a href="{{ '/en/workbench/' | relative_url }}">Workbench</a>.</p>
-</section>
-
-<section class="soft">
-  <div class="eyebrow">Leadership</div>
-  <h2>CEO Profile</h2>
-  <div class="profile">
-    <div class="avatar">
-      <img src="{{ '/assets/images/friguson-mark-512.png' | relative_url }}" alt="FRIGUSON">
-    </div>
-    <div>
-      <h3>CEO / Principal Investigator</h3>
-      <p>A thermal-fluid engineering expert with more than 20 years of research experience in liquid-gas phase-change heat transfer. Author of roughly 40 SCI-indexed papers on energy conversion and phase-change heat transfer, and recognized as a <strong>World Top 2% Scientist</strong>.</p>
-      <ul class="badge-list">
-        <li class="badge">Domestic patent on heat exchangers</li>
-        <li class="badge">Minister's Award, Ministry of Science and ICT (2019)</li>
-        <li class="badge">Best Research Award, Korean Nuclear Society – Thermal Hydraulics (2023)</li>
-        <li class="badge">40+ SCI publications</li>
-      </ul>
-      <p><strong>Core capabilities</strong></p>
-      <ul>
-        <li>Nano/micro surface fabrication and porous structure design &amp; manufacturing</li>
-        <li>Design and fabrication of thermal-fluid experimental apparatus, high-precision instrumentation</li>
-        <li>Optimization of phase-change heat transfer (boiling, condensation)</li>
-        <li>High-precision computational thermal-fluid analysis</li>
-      </ul>
-    </div>
-  </div>
+  <p>FRIGUSON is a workshop of makers. We're currently rebuilding around a new concept, and ongoing work will be published progressively on <a href="{{ '/en/workbench/' | relative_url }}">Workbench</a>.</p>
 </section>
 
 <section class="soft">
@@ -55,14 +28,15 @@ description: "The people building FRIGUSON, our core technical capabilities, and
     </div>
     <div class="card">
       <h3>Industry-academia network</h3>
-      <p>Leveraging the CEO's industry-academia-research network, we build proof-of-concept credibility together with universities and research institutes.</p>
+      <p>We build proof-of-concept credibility together with universities and research institutes through an industry-academia-research network.</p>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="eyebrow">Research Capability</div>
-  <h2>Prior R&amp;D Capability</h2>
-  <p>The nano/micro surface fabrication, precision instrumentation, and computational analysis capabilities built up in academia form the core foundation of FRIGUSON's D2C cooling system development. Below is a sample of fabrication, measurement, and analysis results from our prior research.</p>
-  <img src="{{ '/assets/images/research-capability-collage.png' | relative_url }}" alt="Summary of prior R&D results: nano/micro surface fabrication, phase-change visualization, computational modeling, optical instrumentation">
+  <div class="card log-placeholder">
+    <span class="status-pill status-soon">Coming soon</span>
+    <h3>The people behind FRIGUSON</h3>
+    <p class="text-soft">Team introductions and R&amp;D capabilities will be published soon.</p>
+  </div>
 </section>

@@ -24,7 +24,7 @@ description: "Commission thermal-fluid experimental apparatus design and fabrica
     </div>
     <div class="card">
       <h3>High-Load Test System Setup</h3>
-      <p>We build thin-film-heater-based test systems that let you verify cooling performance under high heat-flux conditions.</p>
+      <p>We build thin-film-heater-based test systems that let you verify performance under high thermal-load conditions.</p>
     </div>
     <div class="card">
       <h3>Precision Temperature &amp; Flow Instrumentation</h3>
