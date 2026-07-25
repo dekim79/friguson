@@ -41,10 +41,10 @@ description: "㈜프리거슨 연락처 정보입니다."
     <div class="card">
       <h3>이런 문의를 환영합니다</h3>
       <ul>
-        <li>D2C 냉각 시스템 도입 및 기술 상담</li>
-        <li>대학·연구소 실험장치 설계·제작 의뢰</li>
+        <li>Toolshop 제품 도입 및 가격 문의</li>
+        <li>Workshop 실험장치 설계·제작 의뢰</li>
         <li>공동연구 및 실증(PoC) 협력 제안</li>
-        <li>Experimental World 콘텐츠 협업 제안</li>
+        <li>Archive(Experimental World) 콘텐츠 협업 제안</li>
       </ul>
       <p class="text-soft">이메일로 연락 주시면 빠르게 답변 드리겠습니다.</p>
     </div>

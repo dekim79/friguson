@@ -1,31 +1,31 @@
 ko:
   - title: 홈
     url: /
-  - title: 회사소개
-    url: /about/
-  - title: 기술
-    url: /technology/
-  - title: 제품
-    url: /products/
-  - title: 실험장치 설계·제작
-    url: /lab-solutions/
-  - title: Experimental World
+  - title: Workbench
+    url: /workbench/
+  - title: Toolshop
+    url: /toolshop/
+  - title: Workshop
+    url: /workshop/
+  - title: Archive
     url: /experimental-world/
-  - title: 연락처
+  - title: About
+    url: /about/
+  - title: 문의
     url: /contact/
 
 en:
   - title: Home
     url: /en/
+  - title: Workbench
+    url: /en/workbench/
+  - title: Toolshop
+    url: /en/toolshop/
+  - title: Workshop
+    url: /en/workshop/
+  - title: Archive
+    url: /en/experimental-world/
   - title: About
     url: /en/about/
-  - title: Technology
-    url: /en/technology/
-  - title: Products
-    url: /en/products/
-  - title: Lab Solutions
-    url: /en/lab-solutions/
-  - title: Experimental World
-    url: /en/experimental-world/
   - title: Contact
     url: /en/contact/

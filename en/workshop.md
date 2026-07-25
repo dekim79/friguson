@@ -1,17 +1,17 @@
 ---
 layout: page
 lang: en
-title: Lab Equipment Design & Fabrication
-subtitle: Custom thermal-fluid experimental apparatus and measurement systems for university and corporate research labs
-permalink: /en/lab-solutions/
-alt_url: /lab-solutions/
-description: "Thermal-fluid experimental apparatus design and fabrication, and high-precision instrumentation services for university and corporate research labs."
+title: Workshop
+subtitle: Where we design and build experimental apparatus that doesn't exist yet.
+permalink: /en/workshop/
+alt_url: /workshop/
+description: "Commission thermal-fluid experimental apparatus design and fabrication, and high-precision instrumentation, in FRIGUSON's Workshop."
 ---
 
 <section style="padding-top:0;">
-  <div class="eyebrow">Lab Solutions</div>
-  <h2>Turning your lab's ideas into working experimental apparatus</h2>
-  <p>Drawing on the thermal-fluid experimental apparatus design and fabrication capabilities and precision instrumentation know-how built up through our own cooling technology development, FRIGUSON designs and builds custom experimental equipment for university and corporate research labs — turning early-stage experimental concepts into apparatus that actually produces data.</p>
+  <div class="eyebrow">Workshop</div>
+  <h2>"I want to build this, but it doesn't exist."</h2>
+  <p>Workshop is where FRIGUSON takes on design and fabrication commissions. We bring the same thermal-fluid experimental apparatus design and precision instrumentation know-how we've used to build our own cooling technology, and turn your early-stage experimental idea into a working apparatus that produces real data.</p>
 </section>
 
 <section class="soft">
@@ -81,5 +81,5 @@ description: "Thermal-fluid experimental apparatus design and fabrication, and h
 <section style="text-align:center;">
   <h2>Planning a new experimental setup?</h2>
   <p class="text-soft">Tell us your research goals and required measurements, and we'll work through a concrete design direction with you.</p>
-  <a class="btn btn-primary" href="{{ '/en/contact/' | relative_url }}">Request lab equipment</a>
+  <a class="btn btn-primary" href="{{ '/en/contact/' | relative_url }}">Commission a build</a>
 </section>

@@ -1,15 +1,15 @@
 ---
 layout: page
 lang: en
-title: Experimental World
-subtitle: Sharing knowledge on experimental techniques and measurement instrumentation.
+title: Archive
+subtitle: Experimental World — a record of experimental techniques and measurement instrumentation.
 permalink: /en/experimental-world/
 alt_url: /experimental-world/
-description: "FRIGUSON's Experimental World shares know-how on thermal-fluid experimental techniques and measurement instrumentation."
+description: "FRIGUSON's Archive (Experimental World) records and shares know-how on thermal-fluid experimental techniques and measurement instrumentation."
 ---
 
 <section style="padding-top:0;">
-  <p style="max-width:720px;">Experimental World is where FRIGUSON shares the experimental techniques and instrumentation know-how we've built up in the field and in research. We share what we've learned from designing and instrumenting thermal-fluid experiments with universities, research institutes, and fellow engineers.</p>
+  <p style="max-width:720px;">Archive (Experimental World) is where FRIGUSON records and shares the experimental techniques and instrumentation know-how we've built up in the field and in research. We share what we've learned from designing and instrumenting thermal-fluid experiments with universities, research institutes, and fellow engineers.</p>
 
   {% assign posts = site.experiments_en | sort: "date" | reverse %}
   {% if posts.size > 0 %}

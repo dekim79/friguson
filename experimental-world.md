@@ -1,15 +1,15 @@
 ---
 layout: page
 lang: ko
-title: Experimental World
-subtitle: 실험기법과 계측장비에 대한 지식을 소개하고 공유합니다.
+title: Archive
+subtitle: 서재 — Experimental World. 실험기법과 계측장비에 대한 지식을 기록하고 공유합니다.
 permalink: /experimental-world/
 alt_url: /en/experimental-world/
-description: "열유체 실험기법과 계측장비에 대한 프리거슨의 노하우를 소개하고 공유하는 Experimental World 입니다."
+description: "열유체 실험기법과 계측장비에 대한 프리거슨의 노하우를 기록하고 공유하는 서재, Experimental World 입니다."
 ---
 
 <section style="padding-top:0;">
-  <p style="max-width:720px;">Experimental World는 프리거슨이 실무와 연구 현장에서 쌓아온 실험기법과 계측장비 노하우를 정리하고 공유하는 공간입니다. 열유체 실험을 설계하고 계측하는 과정에서 얻은 지식을 대학, 연구소, 엔지니어 여러분과 나눕니다.</p>
+  <p style="max-width:720px;">Archive(Experimental World)는 프리거슨이 실무와 연구 현장에서 쌓아온 실험기법과 계측장비 노하우를 기록하고 공유하는 서재입니다. 열유체 실험을 설계하고 계측하는 과정에서 얻은 지식을 대학, 연구소, 엔지니어 여러분과 나눕니다.</p>
 
   {% assign posts = site.experiments_ko | sort: "date" | reverse %}
   {% if posts.size > 0 %}

@@ -1,22 +1,17 @@
 ---
 layout: page
 lang: en
-title: About Us
-subtitle: Built on thermal-fluid engineering expertise to set a new standard in cooling technology.
+title: About
+subtitle: The people in the workshop — the makers are the company.
 permalink: /en/about/
 alt_url: /about/
-description: "FRIGUSON's vision, CEO profile, and core technical capabilities."
+description: "The people building FRIGUSON, our core technical capabilities, and our R&D track record."
 ---
 
 <section style="padding-top:0;">
   <div class="eyebrow">Company</div>
   <h2>Friguson Co., Ltd.</h2>
-  <p>Under the mission of "General Purpose Technology for Cooling," FRIGUSON develops high-efficiency, low-carbon thermal management technology that solves the heat dissipation challenges of ultra-high-density electronics. Through full-cycle R&amp;D spanning theory, experimentation, design, manufacturing, and verification, we are building Direct-to-Chip (D2C) system technology that goes beyond the domestic level to a world-class standard.</p>
-
-  <blockquote class="quote-block">
-    Vision: From a one-person startup to a global deep-tech cooling technology manufacturer.
-  </blockquote>
-  <p>FRIGUSON does not stop at R&amp;D alone — we aim to create jobs for young engineers and develop world-class general-purpose cooling technology to reach the global market.</p>
+  <p>FRIGUSON is a thermal-fluid engineering workshop where theory, experiment, design, fabrication, and verification are carried out by the same hands. We solve the heat-dissipation problem of ultra-high-density electronics through Direct-to-Chip (D2C) cooling — see what we've built and what we're building on <a href="{{ '/en/workbench/' | relative_url }}">Workbench</a>.</p>
 </section>
 
 <section class="soft">

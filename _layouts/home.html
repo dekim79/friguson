@@ -1,19 +1,27 @@
 ---
 layout: default
 ---
-<div class="hero">
-  <div class="container">
-    <div class="hero-tagline">{{ page.hero_tagline }}</div>
-    <h1>{{ page.hero_title }}</h1>
-    <p class="lead">{{ page.hero_lead }}</p>
-    <div class="btn-group">
-      {% if page.hero_primary_label %}
-      <a class="btn btn-primary" href="{{ page.hero_primary_url | relative_url }}">{{ page.hero_primary_label }}</a>
-      {% endif %}
-      {% if page.hero_secondary_label %}
-      <a class="btn btn-outline" href="{{ page.hero_secondary_url | relative_url }}">{{ page.hero_secondary_label }}</a>
-      {% endif %}
+<div class="hero{% if page.hero_image %} has-media{% endif %}">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <div class="hero-tagline">{{ page.hero_tagline }}</div>
+      <h1>{{ page.hero_title }}</h1>
+      <p class="lead">{{ page.hero_lead }}</p>
+      <div class="btn-group">
+        {% if page.hero_primary_label %}
+        <a class="btn btn-primary" href="{{ page.hero_primary_url | relative_url }}">{{ page.hero_primary_label }}</a>
+        {% endif %}
+        {% if page.hero_secondary_label %}
+        <a class="btn btn-outline" href="{{ page.hero_secondary_url | relative_url }}">{{ page.hero_secondary_label }}</a>
+        {% endif %}
+      </div>
     </div>
+    {% if page.hero_image %}
+    <figure class="hero-media">
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: page.hero_title }}">
+      {% if page.hero_image_caption %}<figcaption>{{ page.hero_image_caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
   </div>
 </div>
 

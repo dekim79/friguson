@@ -1,17 +1,17 @@
 ---
 layout: page
 lang: ko
-title: 실험장치 설계·제작
-subtitle: 대학 및 기업 연구소를 위한 맞춤형 열유체 실험장치·계측 시스템
-permalink: /lab-solutions/
-alt_url: /en/lab-solutions/
-description: "대학·기업 부설연구소를 위한 열유체 실험장치 설계·제작, 고정밀 계측 시스템 구축 서비스를 소개합니다."
+title: Workshop
+subtitle: 작업실 — 세상에 없는 실험장치를 함께 설계·제작합니다.
+permalink: /workshop/
+alt_url: /en/workshop/
+description: "대학·기업 부설연구소를 위한 열유체 실험장치 설계·제작, 고정밀 계측 시스템 구축을 의뢰하는 Workshop입니다."
 ---
 
 <section style="padding-top:0;">
-  <div class="eyebrow">Lab Solutions</div>
-  <h2>연구실의 아이디어를, 작동하는 실험장치로</h2>
-  <p>프리거슨은 자체 냉각기술 개발 과정에서 축적한 열유체 실험장치 설계·제작 역량과 고정밀 계측기법을 바탕으로, 대학 및 기업 부설연구소가 필요로 하는 맞춤형 실험 장치를 설계하고 제작합니다. 아이디어 단계의 실험 구상을 실제로 데이터를 얻을 수 있는 장치로 구현해 드립니다.</p>
+  <div class="eyebrow">Workshop</div>
+  <h2>"이런 걸 만들고 싶은데, 세상에 없다면"</h2>
+  <p>Workshop은 프리거슨이 실제로 설계·제작 의뢰를 받는 작업실입니다. 자체 냉각기술을 개발하며 쌓은 열유체 실험장치 설계·제작 역량과 고정밀 계측기법을 그대로, 아이디어 단계의 실험 구상을 데이터를 뽑아낼 수 있는 실물 장치로 옮겨 드립니다.</p>
 </section>
 
 <section class="soft">
@@ -81,5 +81,5 @@ description: "대학·기업 부설연구소를 위한 열유체 실험장치 �
 <section style="text-align:center;">
   <h2>실험장치 제작을 계획 중이신가요?</h2>
   <p class="text-soft">연구 목적과 필요한 계측 항목을 알려주시면 구체적인 설계 방향을 함께 논의해 드립니다.</p>
-  <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">실험장치 제작 문의하기</a>
+  <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">제작 의뢰하기</a>
 </section>

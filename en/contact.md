@@ -41,10 +41,10 @@ description: "Contact information for Friguson Co., Ltd."
     <div class="card">
       <h3>We'd love to hear from you about</h3>
       <ul>
-        <li>Adopting D2C cooling systems / technical consultation</li>
-        <li>Commissioning experimental apparatus for universities or labs</li>
+        <li>Toolshop product adoption and pricing</li>
+        <li>Commissioning a build in the Workshop</li>
         <li>Joint research and Proof-of-Concept (PoC) collaboration</li>
-        <li>Experimental World content collaboration</li>
+        <li>Archive (Experimental World) content collaboration</li>
       </ul>
       <p class="text-soft">Reach out by email and we'll get back to you promptly.</p>
     </div>

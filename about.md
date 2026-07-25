@@ -1,22 +1,17 @@
 ---
 layout: page
 lang: ko
-title: 회사소개
-subtitle: 열유체공학 전문성을 바탕으로 냉각 기술의 새로운 기준을 만듭니다.
+title: About
+subtitle: 작업장 사람들 — 만드는 사람이 곧 회사입니다.
 permalink: /about/
 alt_url: /en/about/
-description: "㈜프리거슨의 비전, 대표이사 소개, 보유 기술 역량을 소개합니다."
+description: "㈜프리거슨을 만드는 사람들, 보유 기술 역량, 연구개발 이력을 소개합니다."
 ---
 
 <section style="padding-top:0;">
   <div class="eyebrow">Company</div>
   <h2>㈜프리거슨 (Friguson Co., Ltd.)</h2>
-  <p>프리거슨은 "General Purpose Technology for Cooling"이라는 목표 아래, 초고집적 전자장비의 발열 문제를 해결하는 고효율·저탄소 열관리 기술을 개발합니다. 이론·실험·설계·제조·검증을 아우르는 전주기적 연구개발을 통해 국내 수준을 넘어 세계적인 수준의 Direct-to-Chip(D2C) 시스템 기술을 만들어가고 있습니다.</p>
-
-  <blockquote class="quote-block">
-    비전: 1인기업에서 글로벌 딥테크 냉각기술 제조기업으로 성장합니다.
-  </blockquote>
-  <p>프리거슨은 단순 연구개발에 머무르지 않고, 청년 일자리를 창출하며 세계 최고 수준의 범용 냉각기술을 개발하여 글로벌 시장으로 도약하는 것을 목표로 합니다.</p>
+  <p>프리거슨은 이론·실험·설계·제조·검증을 한 사람의 손으로 직접 잇는 열유체공학 기반 공작소입니다. 초고집적 전자장비의 발열 문제를 Direct-to-Chip(D2C) 방식으로 풀고 있으며, 지금까지 만든 것과 만들고 있는 것은 <a href="{{ '/workbench/' | relative_url }}">Workbench</a>에서 확인하실 수 있습니다.</p>
 </section>
 
 <section class="soft">

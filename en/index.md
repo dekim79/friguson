@@ -1,71 +1,81 @@
 ---
 layout: home
 lang: en
-title: "FRIGUSON | Electronics Cooling Solutions"
-description: "Friguson Co., Ltd. develops high-efficiency, low-carbon Direct-to-Chip (D2C) cooling solutions for high-density electronics, and designs experimental apparatus for university and corporate research labs."
+title: "FRIGUSON — A Workshop for High-Heat-Flux Cooling"
+description: "Friguson Co., Ltd. is a cooling workshop that designs and builds Direct-to-Chip (D2C) systems based on phase-change heat transfer, and fabricates experimental apparatus for university and corporate research labs."
 permalink: /en/
 alt_url: /
 hero_tagline: "General Purpose Technology for Cooling"
-hero_title: "Setting a new standard for electronics cooling with Direct-to-Chip thermal management"
-hero_lead: "FRIGUSON is a thermal-fluid engineering deep-tech company that designs and manufactures high-efficiency, low-carbon cooling systems for ultra-high-density GPUs, power semiconductors, and AI servers."
-hero_primary_label: "Explore Technology"
-hero_primary_url: /en/technology/
-hero_secondary_label: "Request Lab Equipment"
-hero_secondary_url: /en/lab-solutions/
+hero_title: "We remove high heat flux right where it happens."
+hero_lead: "FRIGUSON is a cooling workshop redesigning the thermal limits of ultra-high-density GPUs and power semiconductors with Direct-to-Chip (D2C) systems built on phase-change heat transfer."
+hero_primary_label: "See the Workbench"
+hero_primary_url: /en/workbench/
+hero_secondary_label: "Commission a build"
+hero_secondary_url: /en/workshop/
+hero_image: /assets/images/diagram-d2c-system.png
+hero_image_alt: "D2C cooling system concept — Cold Plate, CDU, final heat exchanger"
+hero_image_caption: "The Cold Plate absorbs heat directly at the chip surface. (To be replaced with real photos and IR thermal imaging.)"
 ---
 
 <section>
   <div class="container">
     <div class="section-head">
-      <div class="eyebrow">Business</div>
-      <h2>What FRIGUSON Does</h2>
-      <p class="text-soft">We build value across three business areas, grounded in our core cooling technology.</p>
+      <div class="eyebrow">The Workshop</div>
+      <h2>Step into the workshop</h2>
+      <p class="text-soft">A space for building what isn't sold off the shelf — and can't be.</p>
     </div>
-    <div class="grid grid-3">
+    <div class="grid grid-4">
       <div class="card">
-        <div class="icon">❄</div>
-        <h3>Electronics Cooling Solutions</h3>
-        <p>Integrated Cold Plate, CDU, and heat exchanger systems built on Direct-to-Chip (D2C) technology to solve the thermal challenges of ultra-high-density electronics.</p>
-        <a class="card-link" href="{{ '/en/technology/' | relative_url }}">See Technology →</a>
+        <h3>Workbench</h3>
+        <p>A log of what we're building, and what we've already built.</p>
+        <a class="card-link" href="{{ '/en/workbench/' | relative_url }}">See the log →</a>
       </div>
       <div class="card">
-        <div class="icon">🔬</div>
-        <h3>Lab Equipment Design &amp; Fabrication</h3>
-        <p>We design and build custom thermal-fluid experimental apparatus and high-precision measurement systems for university and corporate research labs.</p>
-        <a class="card-link" href="{{ '/en/lab-solutions/' | relative_url }}">See Services →</a>
+        <h3>Toolshop</h3>
+        <p>Finished parts and equipment, sold at a set price.</p>
+        <a class="card-link" href="{{ '/en/toolshop/' | relative_url }}">Browse the shop →</a>
       </div>
       <div class="card">
-        <div class="icon">🌐</div>
-        <h3>Experimental World</h3>
-        <p>A knowledge platform where we share hands-on know-how on experimental techniques and measurement instrumentation.</p>
-        <a class="card-link" href="{{ '/en/experimental-world/' | relative_url }}">Explore →</a>
+        <h3>Workshop</h3>
+        <p>We design and build experimental apparatus that doesn't exist yet.</p>
+        <a class="card-link" href="{{ '/en/workshop/' | relative_url }}">Commission a build →</a>
+      </div>
+      <div class="card">
+        <h3>Archive</h3>
+        <p>A record of experimental techniques and instrumentation know-how.</p>
+        <a class="card-link" href="{{ '/en/experimental-world/' | relative_url }}">Read the archive →</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="soft">
-  <div class="container grid grid-2" style="align-items:center;">
-    <div>
-      <div class="eyebrow">Why Cooling Matters</div>
-      <h2>As power density rises, cooling becomes essential, not optional</h2>
-      <p>The power density of GPUs and AI accelerators is climbing sharply every year. Cooling many devices individually with air reaches its limit, making liquid-based cooling that removes heat right at the source essential.</p>
-      <p>FRIGUSON implements this principle through <strong>Direct-to-Chip (D2C)</strong> cooling. We integrate a Cold Plate that contacts the chip directly, a CDU that circulates, purifies, and controls coolant, and a final heat exchanger into a single commercialization-ready thermal management system.</p>
-      <a class="btn btn-primary" href="{{ '/en/technology/' | relative_url }}">Learn about D2C technology</a>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">From the Workbench</div>
+      <h2>What we're building right now</h2>
     </div>
-    <figure class="figure">
-      <img src="{{ '/assets/images/concept-cooling.webp' | relative_url }}" alt="Concept comparison of many air-cooled desktop PCs versus a single liquid-cooled system">
-      <figcaption>Consolidating many air-cooled heat sources into a single liquid-based system dramatically improves cooling efficiency. (Concept illustration)</figcaption>
-    </figure>
+    <div class="grid grid-2" style="align-items:center;">
+      <figure class="figure">
+        <img src="{{ '/assets/images/diagram-rd-roadmap.png' | relative_url }}" alt="5-stage R&D roadmap">
+        <figcaption>Stage 1 Theoretical analysis → Stage 5 Comprehensive evaluation &amp; commercialization verification</figcaption>
+      </figure>
+      <div>
+        <span class="status-pill status-ongoing">Ongoing</span>
+        <h3 style="margin-top:14px;">D2C High-Heat-Flux Cooling System</h3>
+        <p>Cold Plate, CDU, final heat exchanger, sensors &amp; control — four technology elements, pushed toward commercialization.</p>
+        <a class="btn btn-outline" href="{{ '/en/workbench/' | relative_url }}">See the full build log</a>
+      </div>
+    </div>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <blockquote class="quote-block">
-      "From a one-person startup to a global deep-tech cooling technology manufacturer."<br>
-      FRIGUSON aims to create jobs for young engineers and develop world-class general-purpose cooling technology to reach the global market.
-    </blockquote>
+    <div class="section-head">
+      <div class="eyebrow">Track Record</div>
+      <h2>What's on record</h2>
+    </div>
     <div class="stat-row">
       <div class="stat"><span class="num">20+</span><span class="label">years of thermal-fluid research (CEO)</span></div>
       <div class="stat"><span class="num">40+</span><span class="label">SCI-indexed publications</span></div>
@@ -80,8 +90,8 @@ hero_secondary_url: /en/lab-solutions/
 <section class="soft">
   <div class="container">
     <div class="section-head">
-      <div class="eyebrow">Experimental World</div>
-      <h2>Latest Stories</h2>
+      <div class="eyebrow">Archive</div>
+      <h2>Latest from the Archive</h2>
       <p class="text-soft">Read our latest articles on experimental techniques and measurement instrumentation.</p>
     </div>
     <div class="article-grid">
@@ -104,9 +114,38 @@ hero_secondary_url: /en/lab-solutions/
 {% endif %}
 
 <section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Toolshop</div>
+      <h2>A look at the shop</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card shop-card">
+        <div class="shop-thumb">Photo coming soon</div>
+        <h3>D2C Cold Plate Module</h3>
+        <div class="shop-price">Contact for pricing</div>
+      </div>
+      <div class="card shop-card">
+        <div class="shop-thumb">Photo coming soon</div>
+        <h3>Compact CDU</h3>
+        <div class="shop-price">Contact for pricing</div>
+      </div>
+      <div class="card shop-card">
+        <div class="shop-thumb">Photo coming soon</div>
+        <h3>D2C Integrated Package</h3>
+        <div class="shop-price">Contact for pricing</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a class="btn btn-outline" href="{{ '/en/toolshop/' | relative_url }}">Browse the full Toolshop</a>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
   <div class="container" style="text-align:center;">
-    <h2>Have a project or question in mind?</h2>
-    <p class="text-soft">Whether it's adopting a cooling solution, commissioning lab equipment, or proposing a collaboration — feel free to reach out.</p>
-    <a class="btn btn-primary" href="{{ '/en/contact/' | relative_url }}">Get in touch</a>
+    <h2>Want to build something that doesn't exist yet?</h2>
+    <p class="text-soft">Design, fabrication, theory, and academic discussion — we build it with you from the idea stage.</p>
+    <a class="btn btn-primary" href="{{ '/en/workshop/' | relative_url }}">Commission a build</a>
   </div>
 </section>

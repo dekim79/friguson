@@ -12,7 +12,7 @@
 
 ```
 web_page/
-├── index.md, about.md, technology.md, lab-solutions.md,
+├── index.md, workbench.md, toolshop.md, workshop.md, about.md,
 │   experimental-world.md, contact.md   ← 한국어 페이지
 ├── en/                                  ← 영어 페이지 (동일 구조)
 ├── _experiments_ko/                     ← Experimental World 글 (한국어)

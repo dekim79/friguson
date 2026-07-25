@@ -29,4 +29,4 @@ Because phase change is a visible phenomenon, optical instrumentation is a parti
 
 ## FRIGUSON's Approach
 
-Building on our phase-change heat transfer (boiling/condensation) optimization technology and nano/micro surface fabrication capability, FRIGUSON designs flow paths and surface structures inside Cold Plates to promote efficient phase-change heat transfer. If your university or research lab needs a similar phase-change heat transfer experimental setup, our [Lab Solutions]({{ '/en/lab-solutions/' | relative_url }}) service can help build it together with you.
+Building on our phase-change heat transfer (boiling/condensation) optimization technology and nano/micro surface fabrication capability, FRIGUSON designs flow paths and surface structures inside Cold Plates to promote efficient phase-change heat transfer. If your university or research lab needs a similar phase-change heat transfer experimental setup, our [Workshop]({{ '/en/workshop/' | relative_url }}) can help build it together with you.

@@ -1,71 +1,81 @@
 ---
 layout: home
 lang: ko
-title: "프리거슨 | 전자장비 냉각 솔루션"
-description: "㈜프리거슨은 초고집적 전자장비를 위한 고효율·저탄소 Direct-to-Chip(D2C) 냉각 솔루션을 개발하고, 대학·기업 연구소를 위한 실험장치를 설계·제작합니다."
+title: "프리거슨 | FRIGUSON — 고열유속 냉각 공작소"
+description: "㈜프리거슨은 상변화 열전달 기반 Direct-to-Chip(D2C) 냉각 시스템을 설계·제작하고, 대학·기업 연구소를 위한 실험장치를 만드는 냉각 공작소입니다."
 permalink: /
 alt_url: /en/
 hero_tagline: "General Purpose Technology for Cooling"
-hero_title: "전자장비 냉각의 새로운 기준, Direct-to-Chip 열관리 솔루션"
-hero_lead: "㈜프리거슨은 초고집적 GPU 칩셋, 전력반도체, AI 서버를 위한 고효율·저탄소 냉각 시스템을 설계·제작하는 열유체공학 기반 딥테크 기업입니다."
-hero_primary_label: "기술 살펴보기"
-hero_primary_url: /technology/
-hero_secondary_label: "실험장치 제작 문의"
-hero_secondary_url: /lab-solutions/
+hero_title: "고열유속을, 발생하는 그 자리에서 없앱니다."
+hero_lead: "상변화 열전달 기반 Direct-to-Chip(D2C) 시스템으로 초고집적 GPU·전력반도체의 발열 한계를 다시 설계하는 냉각 공작소, 프리거슨입니다."
+hero_primary_label: "작업대 보기"
+hero_primary_url: /workbench/
+hero_secondary_label: "제작 의뢰하기"
+hero_secondary_url: /workshop/
+hero_image: /assets/images/diagram-d2c-system.png
+hero_image_alt: "D2C 냉각 시스템 개념도 — Cold Plate, CDU, 최종 열교환기"
+hero_image_caption: "Cold Plate가 칩 표면에서 직접 열을 흡수합니다. (실측 사진·IR 열화상으로 순차 교체 예정)"
 ---
 
 <section>
   <div class="container">
     <div class="section-head">
-      <div class="eyebrow">Business</div>
-      <h2>프리거슨이 하는 일</h2>
-      <p class="text-soft">냉각 기술 개발 역량을 바탕으로 세 가지 사업 영역에서 가치를 만듭니다.</p>
+      <div class="eyebrow">The Workshop</div>
+      <h2>공작소를 둘러보세요</h2>
+      <p class="text-soft">기성품으로 나오지 않는, 나오기 힘든 무언가를 만들고 싶을 때 방문하는 공간입니다.</p>
     </div>
-    <div class="grid grid-3">
+    <div class="grid grid-4">
       <div class="card">
-        <div class="icon">❄</div>
-        <h3>전자장비 냉각 솔루션</h3>
-        <p>Direct-to-Chip(D2C) 방식의 Cold Plate·CDU·열교환기 통합 시스템으로 초고집적 전자장비의 발열 문제를 해결합니다.</p>
-        <a class="card-link" href="{{ '/technology/' | relative_url }}">기술 살펴보기 →</a>
+        <h3>Workbench</h3>
+        <p>작업대. 진행 중이거나 완성한 제작물의 기록입니다.</p>
+        <a class="card-link" href="{{ '/workbench/' | relative_url }}">작업대 보기 →</a>
       </div>
       <div class="card">
-        <div class="icon">🔬</div>
-        <h3>실험장치 설계·제작</h3>
-        <p>대학 및 기업 연구소를 위한 맞춤형 열유체 실험장치와 고정밀 계측 시스템을 설계하고 제작합니다.</p>
-        <a class="card-link" href="{{ '/lab-solutions/' | relative_url }}">서비스 자세히 보기 →</a>
+        <h3>Toolshop</h3>
+        <p>도구함. 이미 완성해 정가로 판매하는 부품·장비.</p>
+        <a class="card-link" href="{{ '/toolshop/' | relative_url }}">도구함 보기 →</a>
       </div>
       <div class="card">
-        <div class="icon">🌐</div>
-        <h3>Experimental World</h3>
-        <p>실험 현장에서 쌓아온 실험기법과 계측장비에 대한 노하우를 소개하고 공유하는 지식 플랫폼입니다.</p>
-        <a class="card-link" href="{{ '/experimental-world/' | relative_url }}">둘러보기 →</a>
+        <h3>Workshop</h3>
+        <p>작업실. 세상에 없는 실험장치를 함께 설계·제작합니다.</p>
+        <a class="card-link" href="{{ '/workshop/' | relative_url }}">제작 의뢰하기 →</a>
+      </div>
+      <div class="card">
+        <h3>Archive</h3>
+        <p>서재. 실험기법과 계측장비 노하우를 기록합니다.</p>
+        <a class="card-link" href="{{ '/experimental-world/' | relative_url }}">서재 보기 →</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="soft">
-  <div class="container grid grid-2" style="align-items:center;">
-    <div>
-      <div class="eyebrow">Why Cooling Matters</div>
-      <h2>발열 밀도가 높아질수록, 냉각은 선택이 아닌 필수입니다</h2>
-      <p>GPU와 AI 가속기의 전력밀도는 매년 가파르게 증가하고 있습니다. 다수의 장비를 개별 공랭으로 식히는 방식은 한계에 부딪히고, 액체를 이용해 발열원 가까이에서 직접 열을 제거하는 방식이 필수가 되고 있습니다.</p>
-      <p>프리거슨은 이 원리를 <strong>Direct-to-Chip(D2C)</strong> 방식으로 구현합니다. 칩 표면에 직접 맞닿는 Cold Plate와 냉각수를 순환·정화·제어하는 CDU, 그리고 최종 열교환기를 하나의 시스템으로 통합해 상용화 수준의 열관리 솔루션을 제공합니다.</p>
-      <a class="btn btn-primary" href="{{ '/technology/' | relative_url }}">D2C 기술 자세히 보기</a>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">From the Workbench</div>
+      <h2>지금 만들고 있는 것</h2>
     </div>
-    <figure class="figure">
-      <img src="{{ '/assets/images/concept-cooling.webp' | relative_url }}" alt="다수의 공랭식 PC 대비 액체 기반 냉각의 효율 비교 개념도">
-      <figcaption>발열원을 개별 공랭 대신 액체 기반 시스템으로 통합하면 냉각 효율이 비약적으로 상승합니다. (개념도)</figcaption>
-    </figure>
+    <div class="grid grid-2" style="align-items:center;">
+      <figure class="figure">
+        <img src="{{ '/assets/images/diagram-rd-roadmap.png' | relative_url }}" alt="5단계 R&D 로드맵">
+        <figcaption>1단계 이론적 분석 → 5단계 종합 평가 및 상용화 검증</figcaption>
+      </figure>
+      <div>
+        <span class="status-pill status-ongoing">진행중</span>
+        <h3 style="margin-top:14px;">D2C 초고열유속 냉각 시스템</h3>
+        <p>Cold Plate, CDU, 최종 열교환기, 센서·제어 — 4가지 요소기술로 나눠 상용화 수준까지 밀어붙이고 있습니다.</p>
+        <a class="btn btn-outline" href="{{ '/workbench/' | relative_url }}">작업대에서 전체 기록 보기</a>
+      </div>
+    </div>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <blockquote class="quote-block">
-      "1인기업에서 글로벌 딥테크 냉각기술 제조기업으로."<br>
-      프리거슨은 청년 일자리를 창출하고 세계 최고 수준의 범용 냉각기술을 개발하여 글로벌 시장으로 도약합니다.
-    </blockquote>
+    <div class="section-head">
+      <div class="eyebrow">Track Record</div>
+      <h2>숫자로 남은 것</h2>
+    </div>
     <div class="stat-row">
       <div class="stat"><span class="num">20+</span><span class="label">대표이사 열유체공학 연구 경력(년)</span></div>
       <div class="stat"><span class="num">40+</span><span class="label">국제학술지(SCI) 논문</span></div>
@@ -80,8 +90,8 @@ hero_secondary_url: /lab-solutions/
 <section class="soft">
   <div class="container">
     <div class="section-head">
-      <div class="eyebrow">Experimental World</div>
-      <h2>최근 이야기</h2>
+      <div class="eyebrow">Archive</div>
+      <h2>서재의 최근 기록</h2>
       <p class="text-soft">실험기법과 계측장비에 대한 최신 글을 확인해보세요.</p>
     </div>
     <div class="article-grid">
@@ -104,9 +114,38 @@ hero_secondary_url: /lab-solutions/
 {% endif %}
 
 <section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Toolshop</div>
+      <h2>도구함 미리보기</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card shop-card">
+        <div class="shop-thumb">사진 준비 중</div>
+        <h3>D2C Cold Plate 모듈</h3>
+        <div class="shop-price">가격 문의</div>
+      </div>
+      <div class="card shop-card">
+        <div class="shop-thumb">사진 준비 중</div>
+        <h3>컴팩트 CDU</h3>
+        <div class="shop-price">가격 문의</div>
+      </div>
+      <div class="card shop-card">
+        <div class="shop-thumb">사진 준비 중</div>
+        <h3>D2C 통합 패키지</h3>
+        <div class="shop-price">가격 문의</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a class="btn btn-outline" href="{{ '/toolshop/' | relative_url }}">도구함 전체 보기</a>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
   <div class="container" style="text-align:center;">
-    <h2>협업을 제안하거나 궁금한 점이 있으신가요?</h2>
-    <p class="text-soft">냉각 솔루션 도입, 실험장치 제작 의뢰, 공동연구 제안 등 무엇이든 편하게 연락 주세요.</p>
-    <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">문의하기</a>
+    <h2>세상에 없는 무언가를 만들고 싶으신가요?</h2>
+    <p class="text-soft">설계, 제작, 이론, 학문적 디스커션까지 — 아이디어 단계부터 함께 만듭니다.</p>
+    <a class="btn btn-primary" href="{{ '/workshop/' | relative_url }}">제작 의뢰하기</a>
   </div>
 </section>
